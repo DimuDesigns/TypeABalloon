@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<meta title="TypeABalloon" package="com.funtotype.typeaballoon" version="1.0.0" company="Company Name" />
+	<app main="funtotype.typeaballoon.Main" path="Export" file="Main" />
+
+	<window width="800" height="400" background="0xFFFFFF" fps="60" />
+	<window width="0" height="0" if="html5" />
+	<source path="Source" />
+
+	<haxelib name="openfl" />
+	<haxelib name="ash" />
+	<haxelib name="actuate" />
+
+	<assets path="Assets" exclude="openfl.svg" />
+
+	<icon path="Assets/openfl.svg" />
+
+</project>
